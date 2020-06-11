@@ -7,7 +7,7 @@ module.exports = {
         ['link', { rel: 'manifest', href: '/manifest.json' }], //增加manifest.json
     ],
     serviceWorker: true, // 是否开启 PWA
-    base: '/', // 这是部署到github相关的配置
+    base: '/rafa-blog/', // 这是部署到github相关的配置
     markdown: {
         lineNumbers: true // 代码块显示行号
     },
