@@ -44,13 +44,13 @@ module.exports = {
                     appKey: '4Qaw5Pxyy82pXmo1E7RdiI6e'
                 }
             }
-        ],
+        ], // 评论
         ["@vuepress/back-to-top"], // 返回顶部
         ["@vuepress/nprogress"],   // 加载进度条
-        '@vuepress/pwa', {
+        ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: true
-        }
+        }]
     ]
 }
 
